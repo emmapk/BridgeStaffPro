@@ -1,0 +1,27 @@
+{
+  "name": "-bridgestaffpro-",
+  "version": "1.0.0",
+  "description": "this is managements and staffs of de bridge records which i called BridgeStaffPro",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "MICHAEL EMMANUEL",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "expressjs": "^1.0.1",
+    "mongoose": "^8.6.1",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
